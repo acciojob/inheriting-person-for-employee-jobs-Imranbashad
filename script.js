@@ -5,7 +5,7 @@ class Person {
   }
 
   greet() {
-    console.log(`Hello, my name is ${this.name}, I am ${this.age} years old.`);
+    console.log(`Hello, my name is ${this.name}, and I am ${this.age} years old.`);
   }
 }
 
@@ -28,5 +28,4 @@ window.Employee = Employee;
 const alice = new Person("Alice", 25);
 alice.greet();
 
-const bob = new Employee("Bob", 30, "Manager");
-bob.jobGreet();
+
